@@ -1,0 +1,63 @@
+[global]
+    # ========== POSIÇÃO E GEOMETRIA ==========
+    monitor = 0
+    origin = top-right
+    offset = 20x60
+    width = 300
+    height = 180
+    notification_limit = 5
+    
+    # ========== APARÊNCIA ==========
+    transparency = 10
+    frame_width = 0
+    separator_height = 2
+    padding = 12
+    horizontal_padding = 12
+    
+    # ========== TEXTO ==========
+    font = Sans 10
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    word_wrap = yes
+    ellipsize = middle
+    
+    # ========== BARRA DE PROGRESSO ==========
+    progress_bar = true
+    progress_bar_height = 3
+    progress_bar_frame_width = 0
+    progress_bar_min_width = 150
+    
+    # ========== COMPORTAMENTO ==========
+    show_age_threshold = 60
+    stack_duplicates = true
+    hide_duplicate_count = false
+    ignore_newline = no
+    
+    # ========== ÍCONES ==========
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 64
+    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    
+    # ========== HISTÓRICO ==========
+    sticky_history = yes
+    history_length = 20
+
+[urgency_low]
+    background = "#2b2b2b"
+    foreground = "#cccccc"
+    frame_color = "#3b3b3b"
+    timeout = 4
+
+[urgency_normal]
+    background = "#285577"
+    foreground = "#ffffff"
+    frame_color = "#4c7899"
+    timeout = 6
+
+[urgency_critical]
+    background = "#900000"
+    foreground = "#ffffff"
+    frame_color = "#ff0000"
+    timeout = 0

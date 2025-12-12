@@ -1,0 +1,21 @@
+[general]
+bars = 80
+framerate = 60
+autosens = 1
+
+[input]
+method = pulse
+source = auto
+
+[output]
+method = ncurses
+character = "■"
+
+
+[color]
+gradient = 1
+gradient_color_1 = '#00ff00'   ; verde
+#gradient_color_2 = '#ffff00'   ; amarelo
+#gradient_color_3 = '#ff0000'   ; vermelho
+background = '#000000'         ; preto
+
