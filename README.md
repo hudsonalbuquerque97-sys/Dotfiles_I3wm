@@ -313,7 +313,8 @@ rofi -show drun
 
 - `Mod+Enter` - Abrir terminal
 - `Mod+d` - Abrir Rofi (launcher)
-- `Mod+Shift+q` - Fechar janela
+- `Mod+x` - Abrir dmenu (launcher)
+- `Mod+q` - Fechar janela
 - `Mod+Shift+r` - Recarregar i3
 - `Mod+Shift+e` - Sair do i3
 
